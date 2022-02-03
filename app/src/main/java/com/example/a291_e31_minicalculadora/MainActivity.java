@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         mResultado.setText((dValor1-dValor2)+"");
         }catch (NumberFormatException e){
-            Toast.makeText(this, "Falta algun valor", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Error falta algun valor", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         mResultado.setText((dValor1*dValor2)+"");
     }catch (NumberFormatException e){
-        Toast.makeText(this, "Falta algun valor", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Error falta algun valor", Toast.LENGTH_SHORT).show();
     }
     }
 
